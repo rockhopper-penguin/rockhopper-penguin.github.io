@@ -25,3 +25,7 @@ body {
 .icons p {
   display: inline-block;
 }
+
+.icons p:nth-of-type(3) img {
+  margin-top: -50px;
+}
