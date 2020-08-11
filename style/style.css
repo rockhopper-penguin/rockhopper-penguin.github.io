@@ -13,8 +13,15 @@ body {
 }
 
 .main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20%;
+  width: 80%;
+  margin: 15% auto auto auto;
+}
+
+.main h1,
+.icons {
+  text-align: center;
+}
+
+.icons p {
+  display: inline-block;
 }
