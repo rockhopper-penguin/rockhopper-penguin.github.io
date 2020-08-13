@@ -15,13 +15,16 @@ body {
 
 .main {
   width: 80%;
-  margin: 15% auto auto auto;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
 }
 
 .main h1,
 .icons {
   text-align: center;
+  font-size: 2rem;
 }
 
 .icons p {
