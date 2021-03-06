@@ -1,18 +1,33 @@
 <script>
-	export let name;
+	const name = "Rockhopper-Penguin";
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>{ name }</h1>
+	<div>
+        <p>
+          <a href="https://www.facebook.com/penguin.s.seto/" target="_blank">
+            <i class="nes-icon facebook is-large"></i>
+          </a>
+        </p>
+        <p>
+          <a href="https://github.com/rockhopper-penguin" target="_blank">
+            <i class="nes-icon github is-large"></i
+          ></a>
+        </p>
+      </div>
 </main>
 
 <style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
 	main {
 		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
+		width: 90%;
+		margin: auto;
 	}
 
 	h1 {
@@ -22,9 +37,19 @@
 		font-weight: 100;
 	}
 
+	div {
+		width: 100%;
+		margin: auto;
+	}
+
+	div > p {
+		display: inline-block;
+		padding: 10px;
+	}
+
 	@media (min-width: 640px) {
 		main {
-			max-width: none;
+
 		}
 	}
 </style>
